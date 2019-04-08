@@ -1,9 +1,26 @@
-# Center for Public Health Genomics Computation Group
+# Center for Public Health Genomics Computation Community
+
+A portal to welcome new programmers to CPHG at UVa
+
+## Welcome
+
+Welcome to the CPHG Computation Community! This webpage and associated repository is meant to serve as a community-curated portal to the many valuable people and resources you will work with as a member of the CPHG computational community. Please feel free to submit issues to this site and contribute to the resources listed here. Welcome to CPHG Computing!
 
 
-## Introduction
+## Contents
 
-Welcome to the CPHG Computation Group! This webpage and associated repository is meant to serve as a community-curated portal to the many valuable people and resources you will work with as a member of the CPHG computational community. Please feel free to submit issues to this site and contribute to the resources listed here. Welcome to CPHG Computing!
+* [CPHG](#cphg)
+* [CADRE](#uva-computation-and-data-resource-exchange-cadre)
+* [ARCS](#uva-advanced-research-computing-arcs)
+* [SOMRC](#uva-school-of-medicine-research-computing-somrc)
+* [Databio](#databio-bioinformatics-skills-resources)
+* [Affiliated Resources](#affiliated-uva-resources)
+* [Unaffiliated Resources](#unaffiliated-resources)
+* [Command Line Tools](#command-line-tools)
+* [Text Editors](#text-editors)
+* [Configurations](#configurations)
+* [GitHub](#github)
+* [CPHG IT Infrastructure](#cphg-it-infrastructure)
 
 
 ## CPHG
@@ -17,7 +34,7 @@ Welcome to the CPHG Computation Group! This webpage and associated repository is
 
 ## UVa Computation and Data Resource Exchange (CADRE)
 
-* CADRE is a University-wide exchange designed to simplify the process of finding local research technology solutions. The [CADRE website][cadre] provides a comprehensive list of the software, services, training opportunities, storage solutions, and computational hardware available to UVa scholars.
+* [CADRE][cadre] is a University-wide exchange designed to simplify the process of finding local research technology solutions. The [CADRE website][cadre] provides a comprehensive list of the software, services, training opportunities, storage solutions, and computational hardware available to UVa scholars.
 * [CADRE organizational chart](https://cadre.virginia.edu/cadre-about-us)
 
 
@@ -29,8 +46,8 @@ Welcome to the CPHG Computation Group! This webpage and associated repository is
 * [Rivanna status page](https://arcs.virginia.edu/rivanna-status-update)
 * [ARCS SLURM page](https://arcs.virginia.edu/slurm)
 * [ARCS Getting Started page](https://arcs.virginia.edu/getting-started)
-* [ARCS storage page](https://arcs.virginia.edu/storage)
-* [ARCS file transfer tools](https://arcs.virginia.edu/login-and-file-transfer)
+* [ARCS Storage page](https://arcs.virginia.edu/storage)
+* [ARCS File Transfer tools](https://arcs.virginia.edu/login-and-file-transfer)
 * [ARCS Globus page](https://arcs.virginia.edu/globus)
 
 
@@ -39,17 +56,18 @@ Welcome to the CPHG Computation Group! This webpage and associated repository is
 * [Homepage](https://somrc.virginia.edu/), on [github](https://github.com/uvasomrc), and on [dockerhub](https://hub.docker.com/u/somrc)
 * [Ivy](https://somrc.virginia.edu/userinfo/ivy/)
   * *Ivy is a secure computing environment for researchers working with sensitive data. The environment meets HIPAA requirements. Access to Ivy resources is project-based, limited to PIs and their designees, and requires approval. HPC services will be coming soon to the Ivy environment.*
-* [SOMRC globus page](https://somrc.virginia.edu/userinfo/globus/)
+* [SOMRC Globus page](https://somrc.virginia.edu/userinfo/globus/)
 
 
 ## Databio Bioinformatics Skills Resources
 
-* Nathan [Sheffield][sheffield] curates a [list](http://databio.org/skills/) of resources to help students interested in developing foundational skills useful for computational biology on his [website](http://databio.org/).
+* [Nathan Sheffield][sheffield] curates a [list of resources](http://databio.org/skills/) to help students interested in developing foundational skills useful for computational biology on [his website](http://databio.org/).
 
 
 ## Affiliated UVa Resources
 
-* UVa Computational Biology [slack channel](https://uvacompbio.slack.com/)
+* [UVa Computational Biology Slack channel](https://uvacompbio.slack.com/)
+* [UVa Biomedical Data Sciences Hackathon](https://github.com/databio/bdshack19)
 
 
 ## Unaffiliated Resources
@@ -67,7 +85,9 @@ Welcome to the CPHG Computation Group! This webpage and associated repository is
 * Unix/Linux Tutorials
   * [ARCS Unix tutorial](https://arcs.virginia.edu/UNIX-tutorials-for-beginners)
   * [An informal discussion of aliases vs functions vs scripts](https://unix.stackexchange.com/questions/30925/in-bash-when-to-alias-when-to-script-and-when-to-write-a-function)
-* [Commands for your first day](first_day.md)
+* Getting Started
+  * [Unix commands for your first day](first_day.md)
+  * [Python on Rivanna](https://arcs.virginia.edu/python)
 * Group member favorite commands
   * [Chris Dampier](fav_commands/dampier_commands.md)
   * [Next Member](fav_commands/member_commands.md)
@@ -86,7 +106,7 @@ Welcome to the CPHG Computation Group! This webpage and associated repository is
 ## Configurations
 
 ### .bash_profile and .bashrc files
-* How-to [guide][bashrc] for building your own bashrc file
+* How-to [guide][bashrc] for building your own `.bashrc` file
 * Example of a popular [.bash_profile](https://gist.github.com/stephenll/8762279) to give you some ideas
 * Group member bash configurations
   * [Chris Dampier](bash_profiles/dampier_macos_bash_profile.bash)
@@ -107,15 +127,14 @@ Welcome to the CPHG Computation Group! This webpage and associated repository is
 ## GitHub
 
 * [Homepage](https://github.com/)
-* Karl Broman's [minimal github tutorial](https://github.com/kbroman/github_tutorial)
-* Nathan Sheffield's [conceptual introduction][github] to github
+* [Karl Broman's minimal Github tutorial](https://github.com/kbroman/github_tutorial)
+* [Nathan Sheffield's conceptual introduction][github] to github
 
 
 ## CPHG IT Infrastructure
 
-* We may need to put this behind a firewall and require NetBadge login
-  * I haven't learned the best way to do that yet
-  * Here is my first attempt at putting server information behind a firewall: [a collab site](https://collab.its.virginia.edu/portal/site/a412f617-1d58-4aa2-a58a-1cd7f37b93dc/page/02d2821c-67f4-456f-ada7-023e878d92d5)
+* We would like to make the CPHG server structure explicit to all CPHG members, but it seems we need to put such a resource behind a firewall and require NetBadge login for security. I haven't learned the best way to do that yet.
+  * [Maybe a collab site](https://collab.its.virginia.edu/portal/site/a412f617-1d58-4aa2-a58a-1cd7f37b93dc/page/02d2821c-67f4-456f-ada7-023e878d92d5)
 
 ---
 *CPHG Computation Group*
