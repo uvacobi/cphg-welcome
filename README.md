@@ -5,9 +5,6 @@
 
 Welcome to the CPHG Computation Group! This webpage and associated repository is meant to serve as a community-curated portal to the many valuable people and resources you will work with as a member of the CPHG computational community. Please feel free to submit issues to this site and contribute to the resources listed here. Welcome to CPHG Computing!
 
-__Disclaimer__
-
-In order to facilitate community participation, I intend to move this repository to an organization-level location as opposed to my own account, but I haven't set that up yet. Also planned but still pending is a table of contents.
 
 ## CPHG
 
