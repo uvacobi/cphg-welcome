@@ -1,0 +1,57 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+
+### Set prompt
+OS=`uname`
+PS1='\u $PWD>'  #set command line prompt
+
+### Aliases
+alias ps='ps -o ruser,pid,pcpu,pmem,vsz,nice,s,stime,time,args'
+alias rm="rm -i"  #prompt before removing
+alias mv="mv -i"  #prompt before overwrite
+alias cp="cp -i"  #prompt before overwrite
+alias ll='ls -lhFg' #get file info using ls
+alias top='top -M'
+
+
+### Environmental variables
+CLICOLOR=1; export CLICOLOR
+LS_COLORS=$LS_COLORS:'di=1;30:' ; export LS_COLORS #display directories in bold blue
+LS_COLORS=$LS_COLORS:'ln=0;34:' ; export LS_COLORS #display symbolic links in red
+export PATH=/Users/Cassie/.local/bin:$PATH
+
+### Functions
+#mount remote file systems
+mymt() {
+	sshfs -o allow_other,defer_permissions ccr5ju@rivanna.hpc.virginia.edu:/scratch/ccr5ju ~/Remote/scratch
+}
+export -f mymt
+
+#unmount remote file systems
+myum() {
+	umount ~/Remote/scratch
+}
+export -f myum
+
+tally () {
+ local file=$1
+ local col=$2
+ awk -v col=$col '{print $col}' $file | sort | uniq -c
+
+}
+export -f tally
+
+comment () {
+	printf '\n%.0s' {1..5}
+	printf '=%.0s' {1..100}
+	echo -e " "
+	echo -e "\t"$1
+	printf '=%.0s' {1..100}
+	echo -e " "
+}
+export -f comment

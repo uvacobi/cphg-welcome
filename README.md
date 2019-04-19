@@ -110,7 +110,7 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
 * Example of a popular [.bash_profile](https://gist.github.com/stephenll/8762279) to give you some ideas
 * Group member bash configurations
   * [Chris Dampier](bash_profiles/dampier_macos_bash_profile.bash)
-  * [Next Member](bash_profiles/member_linux_bashrc.bash)
+  * [Cassie](bash_profiles/ccr_macos_bashrc)
 
 ### Modules
 * [ARCS LMod page](https://arcs.virginia.edu/lmod)
