@@ -111,6 +111,7 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
 * Group member bash configurations
   * [Chris Dampier](bash_profiles/dampier_macos_bash_profile.bash)
   * [Cassie](bash_profiles/ccr_macos_bashrc)
+  * [Your Name](bash_profiles/member_linux_bashrc.bash)
 
 ### Modules
 * [ARCS LMod page](https://arcs.virginia.edu/lmod)
