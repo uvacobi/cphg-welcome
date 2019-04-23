@@ -38,6 +38,11 @@ myum() {
 }
 export -f myum
 
+#cleanup appledouble files
+#mkdir .trash
+#find ./ -depth -name ".AppleDouble" | sed 's|.//||g' | awk '{print "mkdir .trash/dir"NR; print "mv "$1" .trash/dir"NR}' > .trash/cleanup_appledouble_files.sh
+#bash .trash/cleanup_appledouble_files.sh
+
 tally () {
  local file=$1
  local col=$2
