@@ -28,7 +28,7 @@ export PATH=/Users/Cassie/.local/bin:$PATH
 ### Functions
 #mount remote file systems
 mymt() {
-	sshfs -o allow_other,defer_permissions ccr5ju@rivanna.hpc.virginia.edu:/scratch/ccr5ju ~/Remote/scratch
+	sshfs -o allow_other,defer_permissions,noapplexattr,noappledouble ccr5ju@rivanna.hpc.virginia.edu:/scratch/ccr5ju ~/Remote/scratch
 }
 export -f mymt
 
