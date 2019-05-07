@@ -1,4 +1,4 @@
-# Center for Public Health Genomics Computation Community
+# Center for Public Health Genomics Computation Group
 
 A portal to welcome new programmers to CPHG at UVa
 
@@ -6,9 +6,9 @@ A portal to welcome new programmers to CPHG at UVa
 
 Welcome to the CPHG Computation Community! This webpage and associated repository is meant to serve as a community-curated portal to the many valuable people and resources you will work with as a member of the CPHG computational community. Please feel free to submit issues to this site and contribute to the resources listed here. Welcome to CPHG Computing!
 
-
 ## Contents
 
+* [Meetings](#meetings)
 * [CPHG](#cphg)
 * [CADRE](#uva-computation-and-data-resource-exchange-cadre)
 * [ARCS](#uva-advanced-research-computing-arcs)
@@ -22,6 +22,9 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
 * [GitHub](#github)
 * [CPHG IT Infrastructure](#cphg-it-infrastructure)
 
+## Meetings
+
+We meet in-person, as a group, once every few weeks to discuss topics of interest to community members. Vote on the next topic here: [Google Docs link](https://docs.google.com/spreadsheets/d/1Y3k2-ulUVaucR0xEuL3EvZOkXa3aPQ6LE08e6yH_9dE/edit#gid=0)
 
 ## CPHG
 
@@ -31,12 +34,10 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
 * [Github site for trainees](https://github.com/CPHG-Trainees)
   * *This site does not appear to have been developed much*
 
-
 ## UVa Computation and Data Resource Exchange (CADRE)
 
 * [CADRE][cadre] is a University-wide exchange designed to simplify the process of finding local research technology solutions. The [CADRE website][cadre] provides a comprehensive list of the software, services, training opportunities, storage solutions, and computational hardware available to UVa scholars.
 * [CADRE organizational chart](https://cadre.virginia.edu/cadre-about-us)
-
 
 ## UVa Advanced Research Computing (ARCS)
 
@@ -50,7 +51,6 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
 * [ARCS File Transfer tools](https://arcs.virginia.edu/login-and-file-transfer)
 * [ARCS Globus page](https://arcs.virginia.edu/globus)
 
-
 ## UVa School of Medicine Research Computing (SOMRC)
 
 * [Homepage](https://somrc.virginia.edu/), on [github](https://github.com/uvasomrc), and on [dockerhub](https://hub.docker.com/u/somrc)
@@ -58,22 +58,18 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
   * *Ivy is a secure computing environment for researchers working with sensitive data. The environment meets HIPAA requirements. Access to Ivy resources is project-based, limited to PIs and their designees, and requires approval. HPC services will be coming soon to the Ivy environment.*
 * [SOMRC Globus page](https://somrc.virginia.edu/userinfo/globus/)
 
-
 ## Databio Bioinformatics Skills Resources
 
 * [Nathan Sheffield][sheffield] curates a [list of resources](http://databio.org/skills/) to help students interested in developing foundational skills useful for computational biology on [his website](http://databio.org/).
-
 
 ## Affiliated UVa Resources
 
 * [UVa Computational Biology Slack channel](https://uvacompbio.slack.com/)
 * [UVa Biomedical Data Sciences Hackathon](https://github.com/databio/bdshack19)
 
-
 ## Unaffiliated Resources
 
 * [Shirley Liu's Bioinformatics and Computational Biology course page](https://canvas.harvard.edu/courses/49497/pages/course-schedule)
-
 
 ## Command Line Tools
 
@@ -92,7 +88,6 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
   * [Chris Dampier](fav_commands/dampier_commands.md)
   * [Next Member](fav_commands/member_commands.md)
 
-
 ## Text Editors
 
 * [Atom](https://atom.io/)
@@ -101,7 +96,6 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
 * [Sublime](https://www.sublimetext.com/)
 * [Vim](https://www.vim.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
-
 
 ## Configurations
 
@@ -124,13 +118,11 @@ Welcome to the CPHG Computation Community! This webpage and associated repositor
 ### Virtual Machines
 * [SOMRC VMs](https://somrc.virginia.edu/userinfo/ivy/#virtual-machines)
 
-
 ## GitHub
 
 * [Homepage](https://github.com/)
 * [Karl Broman's minimal Github tutorial](https://github.com/kbroman/github_tutorial)
 * [Nathan Sheffield's conceptual introduction][github] to github
-
 
 ## CPHG IT Infrastructure
 
