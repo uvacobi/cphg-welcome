@@ -77,3 +77,7 @@ To change current group ID during a login:
 To explore filesystems mounted on Rivanna:
 
     $df -h
+
+[To view binary files](https://stackoverflow.com/questions/1765311/how-to-view-files-in-binary-from-bash):
+
+    $xxd <file_name> | less
