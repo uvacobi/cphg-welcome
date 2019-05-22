@@ -60,6 +60,7 @@ To check job queue:
 
     $squeue -o "%.5i %.2t %.4M %.5D %m"
     $scontrol show job ###
+    $squeue -o"%.7i %.9P %.8j %.8u %.2t %.10M %.6D %C" | grep 'chd5n'
 
 To check job completion details:
 
