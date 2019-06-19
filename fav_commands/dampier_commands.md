@@ -78,6 +78,10 @@ To change current group ID during a login:
 To explore filesystems mounted on Rivanna:
 
     $df -h
+    
+To create a tar ball:
+
+    $ tar -zcvf file.tar.gz /path/to/dir/
 
 [To view binary files](https://stackoverflow.com/questions/1765311/how-to-view-files-in-binary-from-bash):
 
