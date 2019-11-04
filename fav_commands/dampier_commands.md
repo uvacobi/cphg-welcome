@@ -82,6 +82,12 @@ To explore filesystems mounted on Rivanna:
 To create a tar ball:
 
     $ tar -zcvf file.tar.gz /path/to/dir/
+    ## z for gzip, c for create, v for verbose, f for file archive
+
+To extract an archive:
+
+    $ tar -xzvf collection.tar
+    ## x for extract, z for gzip, v for verbose, f for file archive
 
 [To view binary files](https://stackoverflow.com/questions/1765311/how-to-view-files-in-binary-from-bash):
 
