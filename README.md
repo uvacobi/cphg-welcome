@@ -128,6 +128,12 @@ We meet in-person, as a group, once every few weeks to discuss topics of interes
 
 * We would like to make the CPHG server structure explicit to all CPHG members, but it seems we need to put such a resource behind a firewall and require NetBadge login for security. I haven't learned the best way to do that yet.
   * [Maybe a collab site](https://collab.its.virginia.edu/portal/site/a412f617-1d58-4aa2-a58a-1cd7f37b93dc/page/02d2821c-67f4-456f-ada7-023e878d92d5)
+  + Key directories with useful resources available on the servers:
+     - $HOME/apps : contains shared installation of commonly used tools including perl, python, R and SAS
+     - $HOME/apps/statgen : contains a variety of widely used statistical genetics packages
+     - $HOME/eQTL-Omics-PublicData : contains a variety of publicly available eQTL resources
+     - $HOME : contains a variety of public resources
+     - Note: for security reasons, I have not written the location of "$HOME" here. Please check with fellow members of CPHG to find out the location of $HOME.
 
 ---
 *CPHG Computation Group*
